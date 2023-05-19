@@ -1,0 +1,22 @@
+.DarkOverlayContainer {
+    background-repeat: no-repeat !important;
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: -1;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 64px;
+}
