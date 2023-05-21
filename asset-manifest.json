@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dmz-barter-it/static/css/main.cebcab5a.css",
-    "main.js": "/dmz-barter-it/static/js/main.78f4819c.js",
+    "main.js": "/dmz-barter-it/static/js/main.344e8be9.js",
     "static/js/787.c5790fb5.chunk.js": "/dmz-barter-it/static/js/787.c5790fb5.chunk.js",
     "index.html": "/dmz-barter-it/index.html",
     "main.cebcab5a.css.map": "/dmz-barter-it/static/css/main.cebcab5a.css.map",
-    "main.78f4819c.js.map": "/dmz-barter-it/static/js/main.78f4819c.js.map",
+    "main.344e8be9.js.map": "/dmz-barter-it/static/js/main.344e8be9.js.map",
     "787.c5790fb5.chunk.js.map": "/dmz-barter-it/static/js/787.c5790fb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cebcab5a.css",
-    "static/js/main.78f4819c.js"
+    "static/js/main.344e8be9.js"
   ]
 }
