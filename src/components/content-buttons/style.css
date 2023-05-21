@@ -12,8 +12,8 @@
     padding-right: var(--fields);
 }
 
-.page-img.bg {
-    position: absolute;
+.page-img-bg {
+    position: fixed;
     width: 100%;
     left: -50%;
     top: -50%;
@@ -50,12 +50,13 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-gap: 15px;
+    margin: 5%;
 }
 
 @media screen and (min-width: 1200px) {
     .maps-page__list {
         grid-gap: 30px;
-        margin-top: 20px;
+        margin: 20px;
     }
 }
 
