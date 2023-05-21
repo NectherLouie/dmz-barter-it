@@ -26,7 +26,7 @@ function DrawerAppBar(props) {
     setMobileOpen((prevState) => !prevState);
   };
 
-  const TITLE = "DMZ BARTER";
+  const TITLE = "DMZ BARTER IT";
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
