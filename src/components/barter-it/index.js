@@ -1,5 +1,7 @@
 
-import { Box, Button, Container, createTheme, ThemeProvider } from '@mui/material';
+import {createTheme, Grid, ThemeProvider, Toolbar} from '@mui/material';
+import ContentButtons from '../content-buttons';
+import DrawerAppBar from '../drawer-app-bar';
 import './style.css'
 
 const darkTheme = createTheme({
@@ -11,19 +13,10 @@ const darkTheme = createTheme({
 export default function BarterIt() {
     return (
         <ThemeProvider theme={darkTheme}>
-            <Container className="DarkOverlayContainer" maxWidth="100%"></Container>
-            <Box className='Box'>
-                <Button
-                    className='Button'
-                    type="submit"
-                    fullWidth
-                    variant="contained"
-                    target="_blank"
-                    href={"https://twitter.com/PuzzleBites"}
-                >
-                    {"option.name"}
-                </Button>
-            </Box>
+            <DrawerAppBar></DrawerAppBar>
+            <Toolbar />
+            <ContentButtons></ContentButtons>
+            <Grid></Grid>
         </ThemeProvider>
     );
 }
